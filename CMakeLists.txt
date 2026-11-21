@@ -6,4 +6,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_executable(filescout)
-target_sources(filescout PRIVATE main.cpp)
+
+target_sources(filescout
+        PRIVATE main.cpp
+        PRIVATE scanner.hpp
+        PRIVATE scanner.cpp)

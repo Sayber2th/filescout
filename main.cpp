@@ -3,6 +3,9 @@
 #include <filesystem>
 #include <vector>
 #include <cstdlib>
+#include <system_error>
+
+#include "scanner.hpp"
 
 namespace fs = std::filesystem;
 
